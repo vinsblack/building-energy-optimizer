@@ -2,7 +2,7 @@ import pytest
 import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
-from src.building_energy_optimizer.optimizer import BuildingEnergyOptimizer, create_example_data
+from building_energy_optimizer.optimizer import BuildingEnergyOptimizer, create_example_data
 
 def test_optimizer_initialization():
     """Test if the optimizer initializes correctly."""
